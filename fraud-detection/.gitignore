@@ -1,0 +1,29 @@
+# Environments
+.venv/
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data and model artifacts (never commit raw data)
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
